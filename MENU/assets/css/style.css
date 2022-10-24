@@ -1,0 +1,105 @@
+:root{
+    --white : #F9F9F9;
+    --back : #000000;
+    --red : #B73E3E;
+    --sm: 14px;
+
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D8D9CF;
+}
+
+.logo{
+    width: 50px;
+}
+
+
+nav{
+    display: flex;
+    background-color: var(--white);
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.navbar-left ul,
+.navbar-right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-left{
+    display: flex;
+}
+
+.navbar-left ul li a,
+.navbar-right ul li a{
+    text-decoration: none;
+    color: var(--back);
+    font-weight: bold;
+    padding: 15px;
+    font-size: var(--sm);
+    height: 60px;
+
+}
+
+.navbar-new{
+    position: relative;
+}
+.navbar-new div{
+    width: 40px;
+    height: 20px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 60px;
+    font-size: var(--sm);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: -28px;
+}
+
+
+
+
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover{
+    text-decoration: none;
+    color: var(--back);
+    font-weight: bold;
+    padding: 8px;
+    font-size: var(--sm);
+    height: 60px;
+    border-bottom: 2px solid var(--red);
+}
+
+.navbar-menu-icon div{
+    width: 90px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    font-size: var(--sm);
+    font-weight: bold;
+    
+}
+
+.navbar-menu-icon img{
+    width: 15px;
+    color: var(--back);
+    margin-left: 15px;
+    margin-top: 12px;
+    
+    
+
+}
+
+
+
